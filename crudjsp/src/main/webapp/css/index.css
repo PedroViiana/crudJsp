@@ -1,0 +1,9 @@
+@charset "ISO-8859-1";
+
+
+.box, .botao, h2 {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+}

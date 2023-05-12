@@ -1,0 +1,44 @@
+
+<div class="container-fluid table" >
+<br>
+		<h2>Cadastrar Funcionário</h2>
+		<!-- FORM ATIVADO PELO cadastrarfuncionario.jsp, ONDE É UTILIZADO O METODO FuncionarioDAO.salvarFuncionario(f); -->
+		<form action="cadastrarfuncionario.jsp" method="post">
+			<div class="form-group">
+				<div class="box">
+			  <table>
+			  	<tr>
+			  		<td>Nome:</td>
+			  		<td><input type="text" class="form-control" name="nome"></td>
+			  	</tr>
+			  	<tr>
+			  		<td>Setor:</td>
+			  		<td><input type="text" class="form-control" name="setor"></td>
+			  	</tr>
+			  	<tr>
+			  		<td>Salario:</td>
+			  		<td><input type="number" class="form-control" name="salario"></td>
+			  	</tr>
+			  	
+			  	<tr>
+			  		<td>E-mail:</td>
+			  		<td><input type="email" class="form-control" name="email"></td>
+			  	</tr>
+			  	
+			  	<tr>
+			  		<td>Idade:</td>
+			  		<td><input type="number" class="form-control" name="idade"></td>
+			  	</tr>
+			  	
+			  	<tr>
+				<td><input type="submit" class="btn btn-dark" value="Cadastrar funcionário" ></input></td>
+				<td><a href="index.jsp" style="text-decoration:none"><button type="button" class="btn btn-dark">Voltar</button></a></td>
+			  	</tr>	
+				  	
+			  </table>
+			  	</div>
+			</div>
+		</form>	
+		
+	</div>
+	
